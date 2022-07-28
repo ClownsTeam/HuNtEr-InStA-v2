@@ -91,7 +91,7 @@ headers = {'User-Agent': 'Instagram 113.0.0.39.122 Android (24/5.0; 515dpi; 1440
         'X-IG-Connection-Type': 'WIFI',
         'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8',
         'Host': 'i.instagram.com'}
-sleep(1)
+sleep(1.1)
 sleep(0.1)
 user = '0987654321'
 while True:
