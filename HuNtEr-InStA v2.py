@@ -1,12 +1,11 @@
 try:
-	import os, webbrowser, time
+	import os, time
 	import user_agent, json, random
 	import sys, requests, secrets, pyfiglet
 	from time import sleep
 	from os import system
 except ImportError:
     os.system('pip install time')
-    os.system('pip install webbrowser ')
     os.system('pip install random')
     os.system('pip install requests')
     os.system('pip install user_agent')
@@ -15,7 +14,7 @@ except ImportError:
     os.system('pip install sys')
     os('clear')
 else:
-	import os, webbrowser, time
+	import os, time
 	import user_agent, json, random
 	import sys, requests, secrets, pyfiglet
 	from time import sleep
